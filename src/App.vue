@@ -6,7 +6,8 @@
 
 <style lang="scss">
 p,
-li {
+li,
+h1 {
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 }

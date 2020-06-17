@@ -38,12 +38,19 @@ export default {
 		-ms-user-select: none; /* IE10+/Edge */
 		user-select: none; /* Standard */
 		cursor: pointer;
+		transition: 1s all;
+	}
+	li:hover{
+		color: #F34305;
+	}
+	.active{
+		color: #F34305;
 	}
 	.animation__line {
 		width: 20px;
 		display: block;
 		content: " ";
-		border-top: 1px solid white;
+		border-top: 1px solid #F34305;
 		position: absolute;
 		transition: all 1s;
 	}

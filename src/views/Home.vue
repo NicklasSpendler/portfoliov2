@@ -4,7 +4,7 @@
 		<Section class="qIntro wrapper">
 			<div class="qintro__container wrapper">
 				<div class="qIntro__aboutMe">
-          <p>My name is Nicklas, and I like</p>
+          <p>My name is Nicklas and I like</p>
           <p>Programming, IT, Gaming And Music</p>
         </div>
 				<div class="qIntro__pb">
@@ -15,7 +15,7 @@
     <section class="skills">
       <div class="skills__container">
         <div class="skills__content">
-          <p class="skills__heading">Skills</p>
+          <h1 class="skills__heading">Skills</h1>
           <ul ref="skills__ul" class="skills_menu">
             <li>HTML</li>
             <li>CSS</li>
@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  $neonColor: #fe53bb;
+  $neonColor: #F20187 ;
 
   .animation__line {
 		width: 20px;
@@ -84,7 +84,7 @@ export default {
   }
   .skills{
     height: 100vh;
-    background: rgb(115,25,25);
+    background: #8A0302;
 
     .skills__container{
       height: 100%;
@@ -99,7 +99,7 @@ export default {
 
         .skills__heading{
           text-align: center;
-          margin-top: 0;
+          margin-top: .5rem;
           font-size: 2rem;
           color: $neonColor;
         }

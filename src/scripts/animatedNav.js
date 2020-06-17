@@ -20,10 +20,22 @@ function createEventListeners() {
 		});
 		li.addEventListener('click', (e) => {
 			selectedMenu = e.target.dataset.number;
+
+			liElems[selectedMenu].classList.add("active");
+			clearNavClass()
 		});
 		li.addEventListener('mouseout', () => {
 			animateLine(selectedMenu)
+			clearNavClass();
 		});
+	});
+}
+
+function clearNavClass(){
+	liElems.forEach(li => {
+		if(li.dataset.number != selectedMenu){
+			li.classList.remove("active")
+		}
 	});
 }
 
