@@ -1,7 +1,7 @@
 <template>
 	<nav class="headerNav">
 		<ul ref="headerNav__ul" class="headerNav__buttons">
-			<li data-number="0" v-on:click="scrollToElement('qIntro')">Home</li>
+			<li class="active" data-number="0" v-on:click="scrollToElement('qIntro')">Home</li>
 			<li data-number="1" v-on:click="scrollToElement('skills')">Skills</li>
 			<div ref="animationLine" class="animation__line"></div>
 		</ul>
